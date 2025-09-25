@@ -1,0 +1,30 @@
+.cta-btn{
+  border: none;
+  outline: none;
+  background-color:#3333333f;
+  color:#f5f6fae8;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  animation: showUp 0.5s ease-in;
+}
+
+.cta-btn:hover, .cta-btn:active{
+  font-weight: 900;
+  color:#333333;
+  background-color: #FF7043;
+}
+
+@keyframes showUp {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}

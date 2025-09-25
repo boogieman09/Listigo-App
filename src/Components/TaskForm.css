@@ -1,0 +1,51 @@
+.tasks-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 50%;
+}
+
+.task_input{
+    width: 100%;
+    border: 1px solid #dedede;
+    outline: none;
+    background-color: white;
+    padding: 8px 17px;
+    border-radius: 12px;
+    margin: 20px 0px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.task_input::placeholder {
+    font-size: 1rem;
+}
+
+.task_input:focus{
+    border: 1px solid #FF7043;
+    outline: none;
+}
+
+.add_task_btn{
+    border:none;
+    outline: none;
+    background-color:#FF7043;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.add_task_btn:active{
+    font-size: 0.7rem;
+}
